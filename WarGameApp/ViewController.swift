@@ -9,11 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  @IBOutlet weak var leftCardImageView: UIImageView!
+  @IBOutlet weak var rightCardImageView: UIImageView!
+
+  
+
+
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    leftCardImageView.image = UIImage(named: "FirstBackCard")
+    rightCardImageView.image = UIImage(named: "SecondBackCard")
   }
 
+  @IBAction func playButtonTapped(_ sender: UIButton) {
+
+  }
 
 }
 
