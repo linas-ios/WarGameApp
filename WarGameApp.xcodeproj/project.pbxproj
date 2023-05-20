@@ -13,6 +13,7 @@
 		B08475C52A179F15000E0776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08475C32A179F15000E0776 /* Main.storyboard */; };
 		B08475C72A179F16000E0776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08475C62A179F16000E0776 /* Assets.xcassets */; };
 		B08475CA2A179F16000E0776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08475C82A179F16000E0776 /* LaunchScreen.storyboard */; };
+		B0D5F9FA2A1954F5004F5D9B /* DeckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D5F9F92A1954F5004F5D9B /* DeckManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B08475C62A179F16000E0776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B08475C92A179F16000E0776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B08475CB2A179F16000E0776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D5F9F92A1954F5004F5D9B /* DeckManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				B08475BD2A179F15000E0776 /* AppDelegate.swift */,
 				B08475BF2A179F15000E0776 /* SceneDelegate.swift */,
 				B08475C12A179F15000E0776 /* ViewController.swift */,
+				B0D5F9F92A1954F5004F5D9B /* DeckManager.swift */,
 				B08475C32A179F15000E0776 /* Main.storyboard */,
 				B08475C62A179F16000E0776 /* Assets.xcassets */,
 				B08475C82A179F16000E0776 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				B08475C22A179F15000E0776 /* ViewController.swift in Sources */,
 				B08475BE2A179F15000E0776 /* AppDelegate.swift in Sources */,
+				B0D5F9FA2A1954F5004F5D9B /* DeckManager.swift in Sources */,
 				B08475C02A179F15000E0776 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
